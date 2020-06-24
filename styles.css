@@ -12,22 +12,55 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flex{
+display: flex;
+
+}
+.con{
+
+    height: 100%;
+}
+.btn{
+background-color: #ffffff;
+display: inline-block;
+padding: 4px;
+text-decoration: none;
+border-radius: 3.5px;
+height: 27px;
+}
+
+.btn:hover{
+
+    color: tomato;
+}
+
 
 .sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+  /* pxالعرض هنا يجب ان يكون 120 */
+
+width: 120px0;
+background-color:black;
+color: white;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 80px;
+    background-color: dodgerblue;
 }
 
 .main{
+background-color: cyan;
+
 
 }
 
 a{
-    color: darkgray;
+    text-decoration: none;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+}
+a:hover{
+    color: tomato;
 }
 
 /* !بــونص */
